@@ -101,7 +101,9 @@ table {
 	width: 100%;
 }
 img {
-	max-width: 100%;
+	width: auto; /* 覆盖硬编码的宽度 */
+    max-width: 720px;
+	//max-width: 100%;
 	height: auto;
 	border-radius: 8px;
 }

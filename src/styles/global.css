@@ -105,6 +105,15 @@ img {
 	height: auto;
 	border-radius: 8px;
 }
+.hero-image {
+    max-width: 720px; /* 与正文文字区域对齐 */
+    margin: 0 auto;   /* 居中显示 */
+  }  
+  /* 顺便确保里面的图片不会变形溢出 */
+.hero-image img {
+    width: 100%;
+    height: auto;
+  }
 code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
